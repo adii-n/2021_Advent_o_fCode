@@ -26,7 +26,7 @@ sum_block_1 = firstint + secondint + thirdint
 
 
 for i in range(2, len(int_text)):
-    difference2 = sum_block_1 - int_text[i-3] + int_text[i]
+    difference2 = (sum_block_1 - int_text[i-3]) + int_text[i]
     if difference2 > sum_block_1:
         result2 +=1
 print(result2)
