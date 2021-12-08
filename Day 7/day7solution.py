@@ -11,6 +11,7 @@ from sympy import Abs
 # for i in range(1,2000):
 #     for i in range(1, len(int_text)):
        
-x = symbols("x, y")
-solved_fn = solve(1101+x-2|, x)
+x = symbols("x")
+
+solved_fn = solve(1101+x-2, x, 5)
 print(solved_fn)
